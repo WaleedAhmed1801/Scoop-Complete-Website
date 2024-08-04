@@ -1,0 +1,947 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(218, 148, 18);
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.top i {
+    color: white;
+}
+
+.parent {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Images/WhatsApp\ Image\ 2024-06-26\ at\ 00.44.23_747de2b7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img{
+    width: 150px;
+    height: 70px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+a i {
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.bars{
+    font-size: 1.6rem;
+    color: rgb(201, 156, 243);
+    visibility: hidden;
+}
+
+#blue {
+    background-color: rgb(120, 22, 173);
+    color: white;
+    border-radius: 15px;
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#orange {
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: rgb(120, 22, 173);
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 1.4rem;
+}
+
+.pera {
+    color: rgb(120, 22, 173);
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 1.1rem;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    margin-left: 3px;
+    padding-left: 10px;
+}
+
+button {
+    width: 20%;
+    height: 40px;
+    background-color: rgb(127, 32, 178);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.inp-btn {
+    width: 45%;
+    height: 50px;
+    border: 2px solid rgb(127, 32, 178);
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* -------------------------------------- First Section Completed -------------------------------------- */
+
+
+.our-service {
+    background-color: rgb(248, 240, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#servicehed {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: rgb(122, 45, 194);
+}
+
+.service-parent1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.child1 {
+    width: 320px;
+    height: 330px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: rgb(122, 45, 194);
+    margin: 10px;
+    box-shadow: -3px -3px 3px rgb(193, 144, 239), 3px 3px 3px rgb(193, 144, 239);
+}
+
+.child1,img {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.child1,h2 {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.service-parent2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.child2 {
+    width: 320px;
+    height: 330px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: rgb(122, 45, 194);
+    margin: 10px;
+    box-shadow: -3px -3px 3px rgb(193, 144, 239), 3px 3px 3px rgb(193, 144, 239);
+}
+
+.child2,img {
+    padding-top: 10px;
+}
+
+.child2,h2 {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+/* -------------------------------------- our service section completed ----------------------------- */
+
+
+
+.about-us{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.about-us h1{
+    text-align: center;
+    font-size: 2.6rem;
+    padding-bottom: 30px;
+    color: rgb(120, 22, 173);
+}
+
+.about-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-pera{
+    width: 47%;
+    padding: 50px;
+    font-size: 1.2rem;
+}
+
+.about-image{
+    width: 48%;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+/* ---------------------------------------- about section completed ---------------------------- */
+
+
+.web-section{
+    background-color: rgb(248, 240, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.web-section h1{
+    text-align: center;
+    font-size: 2.7rem;
+    color: rgb(120, 22, 173);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.web-design{
+    display: flex;
+    justify-content: space-around;
+}
+
+.design-pera{
+    width: 47%;
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+.design-pera h4{
+    font-size: 1.3rem;
+}
+
+.design-image{
+    width: 48%;
+}
+.design-image img{
+    width: 100%;
+}
+
+.web-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: rgb(41, 41, 187);
+}
+
+/* ---------------------------------- Website Design Completed -------------------------------- */
+
+
+
+.google-seo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.google-seo h1{
+    text-align: center;
+    font-size: 2.7rem;
+    color: rgb(120, 22, 173);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.google-bussnies{
+    display: flex;
+    justify-content: space-around;
+}
+
+.google-image{
+    width: 48%;
+}
+.google-image img{
+    width: 100%;
+}
+
+.google-pera{
+    width: 47%;
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+.google-pera h4{
+    font-size: 1.3rem;
+}
+
+.google-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: rgb(41, 41, 187);
+}
+
+/* -------------------------------- Google My Bussnies Seo Completed ---------------------------------- */
+
+
+
+.local-seo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(248, 240, 255);
+}
+
+.local-seo h1{
+    text-align: center;
+    font-size: 2.7rem;
+    color: rgb(120, 22, 173);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.local-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.local-pera{
+    width: 47%;
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+.local-pera h4{
+    font-size: 1.3rem;
+}
+
+.local-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: rgb(41, 41, 187);
+}
+
+.local-image{
+    width: 46%;
+}
+.local-image img{
+    width: 100%;
+}
+
+/* ---------------------------------------- Local SEO Completed ------------------------------------- */
+
+
+.google-ads{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.google-ads h1{
+    text-align: center;
+    font-size: 2.7rem;
+    color: rgb(120, 22, 173);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.googleads-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.googleads-pera{
+    width: 49%;
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+.googleads-pera h4{
+    font-size: 1.3rem;
+}
+
+.ads-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: rgb(41, 41, 187);
+}
+
+.googleads-image{
+    width: 46%;
+}
+.googleads-image img{
+    width: 100%;
+}
+
+/* ------------------------------------- Google Ads Section Completed ---------------------------------- */
+
+
+.socialmedia{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(248, 240, 255);
+}
+
+.socialmedia h1{
+    text-align: center;
+    font-size: 2.7rem;
+    color: rgb(120, 22, 173);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.socialmedia-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia-image{
+    width: 46%;
+    padding: 20px;
+}
+.socialmedia-image img{
+    width: 100%;
+}
+
+.socialmedia-pera{
+    width: 47%;
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+.socialmedia-pera h4{
+    font-size: 1.3rem;
+}
+
+.socialmedia-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: rgb(41, 41, 187);
+}
+
+/* -------------------------------- Social Media MArketing Completed ----------------------------- */
+
+
+.card-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-container h1{
+    text-align: center;
+    color: rgb(120, 22, 173);
+    font-size: 2.4rem;
+}
+
+#card{
+    padding-top: 15px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.parent3{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child3{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.child3 .text{
+    padding-left: 15px;
+}
+.child3 .pic{
+    padding-left: 15px;
+}
+.child3 h4{
+    padding-bottom: 10px;
+    color: rgb(120, 22, 173);
+}
+
+.parent4{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child4{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.child4 .text{
+    padding-left: 15px;
+}
+.child4 .pic{
+    padding-left: 15px;
+}
+.child4 h4{
+    padding-bottom: 10px;
+    color: rgb(120, 22, 173);
+}
+
+
+/* ------------------------------- 4 Crads Section Completed ------------------------------------- */
+
+
+.qsection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(231, 213, 248);
+}
+
+.qsection h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(120, 22, 173);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.clrline{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px;
+}
+
+.clrline p{
+    padding-left: 15px;
+}
+
+.q-pera{
+    padding: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.q-pera p{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.q-pera ul{
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.q-pera2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* ---------------------------- Question Section Completed --------------------------------------- */
+
+
+footer{
+    width: 100%;
+    background-color: navy;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parent5{
+    width: 50%;
+    display: flex;
+}
+
+/* ----------------------------- Content 1 Start Here ----------------------------------- */
+.content1 {
+    width: 30%;
+    padding: 30px;
+    color: white;
+}
+
+.content1 img{
+    width: 100%;
+    height: 120px;
+}
+
+/* ----------------------------- Content 2 Start Here ----------------------------------- */
+
+.content2 {
+    width: 30%;
+    padding-top: 150px;
+    padding-left: 10px;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.content2 h2{
+    margin-bottom: 10px;
+}
+
+.content2,p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p,i{
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/* --------------------------------- Form Section Start ------------------------------------- */
+
+.formsec {
+    width: 30%;
+    height: 95vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: rgb(121, 31, 206);
+}
+
+#formhead {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+input {
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+textarea {
+    width: 90%;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.btn1 {
+    width: 90%;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(156, 78, 230);
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: black;
+}
+
+.lastline{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid purple;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: white;
+    background-color: navy;
+}
+
+/* -------------------------------------- Footer Completed ------------------------------- */
+
+
+@media (max-width:942px) {
+
+    .heading{
+        font-size: 1.1rem;
+    }
+    
+    .pera{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:759px) {
+
+    .parent {
+        background-image: none;
+        background-color: rgb(64, 17, 108);
+    }
+
+    .top {
+        display: none;
+    }
+
+    .nav-items a {
+        color: white;
+    }
+
+    .item{
+        display: none;
+    }
+
+    .bars{
+        visibility: visible;
+    }
+
+    .inp-btn{
+        width: 85%;
+    }
+
+    .heading{
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    .pera{
+        font-size: 1rem;
+        color: white;
+    }
+
+    button{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:490px) {
+
+    .heading{
+        padding-left: 30px;
+    }
+
+    .pera{
+        padding-left: 30px;
+    }
+
+    .inp-btn{
+        margin-left: 20px;
+    }
+
+    button{
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media (max-width:848px) {
+    .service-parent1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child1 {
+        width: 91%0
+    }
+
+    .service-parent2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child2 {
+        width: 90%;
+    }
+
+
+    .about-main{
+        flex-direction: column;
+    }
+    .about-pera{
+        width: 100%;
+        font-size: 1.9rem;
+    }
+    .about-image{
+        width: 100%;
+    }
+
+
+    .web-design{
+        flex-direction: column;
+    }
+    .design-pera{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .design-image{
+        width: 100%;
+    }
+
+
+    .google-bussnies{
+        flex-direction: column;
+    }
+    .google-image{
+        width: 100%;
+    }
+    .google-pera{
+        width: 100%;
+    }
+
+
+    .local-section{
+        flex-direction: column;
+    }
+    .local-pera{
+        width: 100%;
+    }
+    .local-image{
+        width: 100%;
+    }
+
+
+    .googleads-section{
+        flex-direction: column;
+    }
+    .googleads-pera{
+        width: 100%;
+    }
+    .googleads-image{
+        width: 100%;
+    }
+
+
+    .socialmedia-section{
+        flex-direction: column;
+    }
+    .socialmedia-pera{
+        width: 100%;
+    }
+    .socialmedia-image{
+        width: 100%;
+    }
+
+
+    .parent3{
+        flex-direction: column;
+    }
+    .child3{
+        width: 100%;
+        margin: 10px;
+    }
+
+
+    .parent4{
+        flex-direction: column;
+    }
+    .child4{
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+@media (max-width:902px) {
+    footer{
+        flex-direction: column;
+    }
+
+    .formsec{
+        width: 100%;
+    }
+
+    .parent5{
+        width: 100%;
+    }
+
+    .content1{
+        width: 50%;
+    }
+    
+    .content2{
+        width: 50%;
+    }
+}
